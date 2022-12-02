@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.header{
+background-color: #393E46;
+width: 100%;
+color: white;
+height: 100px;
+padding: 30px;
+display: flex;
+}
+.logo{
+  margin-left: 900px;
+
+
+  /* background-color: red; */
+}
+
+
+.container {
+  margin: 5% auto;
+  padding: 50px 0;
+  text-align: center;
+  background-color:#D8D9CF;
+  width:800px;
+
+}
+
+.container h1 {
+  text-align: center;
+  color:black;
+  font-size: 40px;
+  font-weight: 200;
+
+}
+
+
+input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color:white;
+  width: 600px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  font-size: 18px;
+  color: black;
+  font-weight: 300;
+}
+p{
+  margin: 10px;
+}
+button {
+  appearance: none;
+  outline: 0;
+  background-color: blue;
+  border: 0;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 3px;
+  width: 160px;
+  font-size: 18px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+button:hover{
+  opacity: 0.5;
+}
+.details{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 25%;
+  display:flex;
+}
+.detailsComponent{
+  padding: 5%;
+text-align: center;
+background-color: darkgrey;
+width: 300px;
+margin: 20px;
+/* display: inline-flex; */
+
+}
+.moredetails{
+  display:flex;
+  width: 800px;
+  text-align: left;
+}
+.detailtop{
+  margin:auto;
+  margin-left: 250px;
+  margin-top: 70px;
+
+}
+
+.dataDetail{
+
+}
+.title{
+  margin: 20px;
+  display: block;
+}
+.indiviual{
+
+  border: 1px solid blacK;
+  border-bottom: 0.5px solid white;
+  /
+  margin-left: 10px;
+  display:block;
+  width: 510px;
+
+}
+.indiviualBottom{
+  border-bottom: 1px solid blacK;
+}
+
+
+.dataimage{
+
+  padding: 1%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid blacK;
+  width: 270px;
+  display:inline-block;
+
+}
+.about{
+  padding: 20px;
+  background-color: #393E46;
+  border-radius: 2%;
+  width: 805px;
+  margin-bottom: 20px;
+  color: white;
+    text-decoration: none;
+    text-align: left;
+}
